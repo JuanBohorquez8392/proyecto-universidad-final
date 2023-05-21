@@ -63,6 +63,16 @@ h6{
     position: relative;
     left: 50vh;
 }
+.estudiosgeneral {
+    display:center;
+
+}
+#texto_cuadro {
+    margin:0 auto;
+}
+.educacion {
+    text-align: center;
+}
 
 #título{
     padding: 10px;
