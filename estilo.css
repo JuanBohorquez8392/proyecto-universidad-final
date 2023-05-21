@@ -42,6 +42,7 @@ li{
 h6{
     font-family: 'Zilla Slab', serif;
     font-weight: bolder;
+    
 }
 
 .pdf{
@@ -90,4 +91,18 @@ h6{
     padding-left: 60px;
 }
 
+img {
+    
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+.imagen_portada{
+    text-align: center;
 
+}
+#pos_img{
+    text-align: center;
+}
