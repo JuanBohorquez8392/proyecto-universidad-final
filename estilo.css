@@ -51,9 +51,26 @@ h6{
     color: white;
     text-decoration: none;
     
+}       
+
+#contenedor3 {
+    border: 1px solid;
+    position: relative;
+    right: 50vh;
+}
+#contenedor4 {
+    border: 1px solid;
+    position: relative;
+    left: 50vh;
 }
 
-#contenedor3{
+#título{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.tabla1{
     position: relative;
     right: 10vh;
 }
+
