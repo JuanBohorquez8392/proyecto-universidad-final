@@ -1,6 +1,6 @@
 #agrupar{width:1200px;margin:15px auto}
 h2{font-size:300%;font-family:verdana;font-weight:100;color:#949090}
-#titulo_prin{text-align:center;padding:5px}
+#titulo_prin{text-align:center;padding:5px; }
 #img_hojavi{border-radius:50%}
 #pos_img{padding-top:60px;padding-left:50px}
 #centrar_img{padding-top:30px;padding-left:40px;text-align:center}
@@ -8,12 +8,79 @@ h2{font-size:300%;font-family:verdana;font-weight:100;color:#949090}
 h6{text-align:center}
 #contenedor{height:260px;display:flex;align-items:center;justify-content:right}
 #tabla{color:#6d6c6c;font-family:verdana;font-size:80%;text-align:left;padding:30px}
-#texto_cuadro{border-width:1px;border-style:solid;padding:5px}
+#texto_cuadro{border-width:1px;border-style:solid;padding:5px;border: none;}
 #texto_cuadro1{padding:6px;color:#fff}
 #contenedor2{padding-left:40px;padding-right:80px}
 #contenedor3{height:265px;display:flex;align-items:center;justify-content:center}
-#cont_descrip{border-width:1px;border-style:solid;border-radius:60px;padding-left:40px;padding-right:40px}
+#cont_descrip{border-width:1px;border-style:solid;border-radius:60px;padding-left:40px;padding-right:40px;margin-top: 50px;border: none;border: none;}
 #titu_descrp{color:#6d6c6c;font-size:20px;font-family:verdana;text-align:center}
 #descrip{color:#6d6c6c;font-size:15px;font-family:verdana}
 #titulofooter{color:#6d6c6c;font-size:15px;font-family:verdana;text-align:center}
-#piepagina{padding:20px 0 10px;text-align:center}
+#piepagina{padding:20px 0 10px;text-align:center; background:grey}
+#boton-flotante{
+    position: fixed;
+    top:70vh;
+    background-color: #c72424;
+    color: white;
+    left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 16%;
+    text-decoration-color: none;
+}
+#tabla{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-family: 'Zilla Slab', serif;
+    font-weight: bolder;
+}
+li{
+    font-family: 'Zilla Slab', serif;
+    font-weight: bolder;
+}
+h6{
+    font-family: 'Zilla Slab', serif;
+    font-weight: bolder;
+}
+
+.pdf{
+    width: 20%;
+}
+.interna-pdf{
+    color: white;
+    text-decoration: none;
+    
+}       
+
+#contenedor3 {
+    border: 1px solid;
+    position: relative;
+    right: 50vh;
+}
+#contenedor4 {
+    border: 1px solid;
+    position: relative;
+    left: 50vh;
+}
+.estudiosgeneral {
+    display:center;
+
+}
+#texto_cuadro {
+    margin:0 auto;
+}
+.educacion {
+    text-align: center;
+}
+
+#título{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.tabla1{
+    position: relative;
+    right: 10vh;
+}
+
