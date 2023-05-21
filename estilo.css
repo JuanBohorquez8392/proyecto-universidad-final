@@ -19,7 +19,7 @@ h6{text-align:center}
 #piepagina{padding:20px 0 10px;text-align:center; background:grey}
 #boton-flotante{
     position: fixed;
-    top:70vh;
+    top:88.2vh;
     background-color: #c72424;
     color: white;
     left: 20px;
@@ -56,7 +56,8 @@ h6{
 #contenedor3 {
     border: 1px solid;
     position: relative;
-    right: 50vh;
+    right: 39vh;
+    width: 100%;
     
 }
 #contenedor3:hover{
@@ -65,8 +66,9 @@ h6{
 }
 #contenedor4 {
     border: 1px solid;
-    position: relative;
-    left: 50vh;
+    padding: 30px;
+    text-align: center;
+    
 }
 .estudiosgeneral {
     display:center;
