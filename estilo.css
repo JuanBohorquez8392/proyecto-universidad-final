@@ -1,18 +1,41 @@
-#agrupar{width:1200px;margin:15px auto}
+#agrupar{width:1200px;margin:0 auto}
 h2{font-size:300%;font-family:verdana;font-weight:100;color:#949090}
 #titulo_prin{text-align:center;padding:5px; }
 #img_hojavi{border-radius:50%}
 #pos_img{padding-top:60px;padding-left:50px}
 #centrar_img{padding-top:30px;padding-left:40px;text-align:center}
-#titulo2{display:inline-block;vertical-align:top;padding:20px;padding-left:180px}
+
+#titulo2{
+    
+    padding:20px;
+}
 h6{text-align:center}
-#contenedor{height:260px;display:flex;align-items:center;justify-content:right}
+#contenedor{border: 1px solid;
+    margin-top: 100px;
+    background: #fffdfd;
+    align-items:start;
+}
 #tabla{color:#6d6c6c;font-family:verdana;font-size:80%;text-align:left;padding:30px}
 #texto_cuadro{border-width:1px;border-style:solid;padding:5px;border: none;}
 #texto_cuadro1{padding:6px;color:#fff}
-#contenedor2{padding-left:40px;padding-right:80px}
+
+#contenedor2{
+    padding-left:40px;
+    padding-right:80px
+}
+
 #contenedor3{height:265px;display:flex;align-items:center;justify-content:center}
-#cont_descrip{border-width:1px;border-style:solid;border-radius:60px;padding-left:40px;padding-right:40px;margin-top: 50px;border: none;border: none;}
+
+#cont_descrip{
+    
+    padding-left:40px;
+    padding-right:40px;
+    margin-top: 50px;
+    border: none;
+    font-weight: lighter;
+
+}
+
 #titu_descrp{color:#6d6c6c;font-size:20px;font-family:verdana;text-align:center}
 #descrip{color:#6d6c6c;font-size:15px;font-family:verdana}
 #titulofooter{color:#6d6c6c;font-size:15px;font-family:verdana;text-align:center}
@@ -30,6 +53,7 @@ h6{text-align:center}
 }
 #tabla{
     font-family: 'Inter', sans-serif;
+    border: 1px solid;
 }
 h1{
     font-family: 'Zilla Slab', serif;
@@ -62,9 +86,22 @@ h6{
     
 }
 #contenedor3:hover{
-    background-color: #D5D8DC;
+    background-color: white;
            
 }
+#contenedor4:hover{
+    background-color: white;
+           
+}
+
+.pasatiempo{
+padding: 50px;
+}
+
+.pasatiempo:hover{
+    background-color: white;
+}
+
 #contenedor4 {
     border: 1px solid;
     padding: 30px;
@@ -77,6 +114,7 @@ h6{
 }
 #texto_cuadro {
     margin:0 auto;
+    text-align:left;
 }
 .educacion {
     text-align: center;
@@ -95,7 +133,6 @@ img {
     
     border-radius: 100%;
     overflow: hidden;
-    margin: 0 auto;
     text-align: center;
   }
   
@@ -105,4 +142,16 @@ img {
 }
 #pos_img{
     text-align: center;
+}
+
+.educacion{
+    border: 1px solid;
+    padding: 30px;
+}
+.educacion:hover{
+    background-color: white;
+}
+
+.lista{
+    font-weight: lighter;
 }

@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <form id="form1" runat="server">
+    <form style="background-color: blanchedalmond;" id="form1" runat="server">
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary" style="background-color: grey!important; text-align: center!important;;">
             <div class="container-fluid" style="text-align: center; flex-direction: column-reverse;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -53,23 +53,23 @@
                             <a class="nav-link" href="estudios.html">ESTUDIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="experiencia_laboral.html">EXPERENCIA LABORAL</a>
+                           <a class="nav-link " href="experiencia_laboral.html">EXPERENCIA LABORAL</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
+    <div id="agrupar"> 
         <header>
             <section>
                 <article>
                     <div id="titulo_prin">
-                        <h1>HOJA DE VIDA</h1>
+                        <h1>ESTUDIOS</h1>
                     </div>
                 </article>
                 <article>
                     <div id="centrar_img">
-                        <img id="img_hojavi" src="img/yaz.jpg" width="180" height="180">
+                        <img class src="img/fotoHV.jpg" alt="Foto de perfil"width="400" height="330">
                     </div>
                 </article>
             </section>
@@ -78,38 +78,26 @@
         <div class="estudiosgeneral">
             <div class="educacion">
                 <h6 class="titulo"> EDUCACIÓN PROFESIONAL </h6>
-                <p id="texto_cuadro"><b>UNIVERSIDAD DE LOS ANDES </b> 
+                <p id="texto_cuadro">
                     <li>Maestria en Seguridad de la información</li>
                     <br> Máster en seguridad de la información <br> 2019
-
-                    <p id="texto_cuadro"><b>FUNDACIÓN UNIVERSITARIA COMPENSAR </b>
                         <li>Ingeniería de software</li>
                         <br> Graduada como Ingeniera de software<br> 2017
-                
-                        <p id="texto_cuadro"><b>SENA </b>
                             <li>Técnico en programación de Software</li>
                             <br> Graduada como Técnica en el área de <br> 
                             Programación de Software <br> 2014
-
-                            <p id="texto_cuadro"><b>SECUNDARIA </b>
                                 <li>COLEGIO FLORIDABLANCA</li>
                                 <br> Bachiller académico <br> 2012     
 
                                 <div class="certificados">
-                                    <h6 class ="titulo3"> CERTIFICADOS </h6>
-                                    <p id="texto_cuadro"><b> SENA </b> 
                                         <li>Salud y seguridad en el trabajo</li>
                                         <br> Certificada y salud y seguridad en el trabajo <br> 2019
-                    
-                                        <p id="texto_cuadro"><b>UNIVERSIDAD DE LOS ANDES </b>
+   
                                             <li>Microsoft Azure AZ -900</li> <br>Fundamentos en la nube
                                             <br> Certificada en Microsoft Azure AZ - 900<br> 
-                                    
-                                            <p id="texto_cuadro"><b>UNIVERSIDAD DE LOS ANDES </b>
                                                 <li>Ciberseguridad</li>
                                                 <br> Certificada en Ciberseguridad <br> 
-                                        
-                                                <p id="texto_cuadro"><b>FUNDACIÓN UNIVERSITARIA COMPENSAR</b>
+                                    
                                                     <li>Inglés - Cambridge B2</li>
                                                     <br> Certificada en inglés B2 <br>     
                                 </div>
@@ -118,10 +106,12 @@
             
         </article>
     </form>
-    <footer>
-        <div id="piepagina">
-        </div>
-    </footer>
+    <div id="boton-flotante">
+        <a  href="./img/Hoja de VWEB.pdf"><img src="./img/pdf-icon.png"  class="pdf"  alt=""> <span class="interna-pdf">¡Descarga el curriculum!</span></a> 
 </body>
-
+</div>
+<footer>
+    <div id="piepagina">
+    </div>
+</footer>
 </html>
